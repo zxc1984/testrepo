@@ -1,0 +1,203 @@
+body { 
+	background:none;
+}
+
+div#header {
+	padding:5%;
+	margin:0%;
+	background:url(../images/starbucksCover.jpg);
+	background-size:100%;
+	height:150px;
+	color:black;
+	border-bottom: 50px solid rgba(0, 0, 0, 0.3);
+}
+
+div#contactBar ul#contacts {
+	margin-top:0px;
+}
+
+div#hero-text {
+	background:url(../images/pattern.jpg);
+	color:white;
+	min-height:145px;
+}
+
+div#hero-text img {
+	margin-left:42%;
+	margin-top:-10px;
+	width:10%;
+}
+
+div#payment-selection div.alert-box h2 {
+	font-size:10px;
+}
+
+div#credit-panel {
+	padding:10px;
+	text-align:right;
+}
+
+div#credit-panel h2 {
+	font-size:15px;
+}
+
+div#productContainer {
+	text-align:center;
+	margin-top:10px;
+}
+
+div#productContainer h1 {
+	font-size:18px;
+}
+
+div#productContainer ul.block-grid.two-up li div.panel.product h2 {
+	font-size:15px;
+	padding:10px;
+	padding-top:2px;
+}
+
+div#orderSummaryContainer {
+	padding-bottom:20px;
+}
+
+div#orderSummaryContainer h1 {
+	font-size:18px;
+}
+
+div#paymentInfo {
+	margin-top:10px;
+}
+
+div#screen2 {
+	text-align:left;
+}
+
+div#screen2 h2 {
+	font-size:18px;
+}
+
+div.alert-box {
+	margin-top:-10px;
+	padding:10px;
+	padding-bottom:5px;
+}
+
+div.panel {
+	border:1px solid #d0cac7;
+	background: white;
+	background: -moz-linear-gradient(top, white 0%, #FFFFFF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,white), color-stop(100%,#FFFFFF));
+	background: -o-linear-gradient(top, white 0%,#FFFFFF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFFFFF',GradientType=0 );
+	box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+	margin: 0 0 20px 0;
+	margin-top:-0px;padding:0px;
+	padding-bottom:-10px;
+}
+
+div.panel h2 {
+	padding-bottom:2px !important;
+}
+
+div#screen1 ul.block-grid.two-up li {
+	margin-bottom:0%;
+}
+
+div#screen3 h2 {
+	font-size:18px;
+}
+
+div#screen3 div.list {
+	margin-bottom:0px;
+	line-height:1.0
+}
+
+ul#contacts li {
+	width:24.9%;
+	margin:0%;
+	padding:0%;
+	background:url(../images/pattern-bar.jpg);
+	height:55px;
+	padding-top:5px;
+	text-align:center;
+	border-right:1px dashed #999;
+	border-bottom:1px dashed #999;
+}
+
+ul#contacts {
+	margin:0%;
+}
+
+#hero-text {
+	text-align:center;
+}
+
+#hero-text h2 {
+	font-family: 'Just Me Again Down Here', cursive;
+	color:black;
+	font-size:40px;
+	font-weight:400;
+	line-height:1.0;
+	margin-bottom:0px;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#header h2 {
+	color:white;
+	margin-top:185px;
+	font-size:22px;
+	margin-bottom:0px;
+	text-shadow: 1px 1px 0px #000;
+	filter: dropshadow(color=##000, offx=1, offy=1);
+}
+
+div.panel.product {
+	cursor:pointer;
+}
+
+div.selected img {
+	float: right;
+	margin-top: -35px;
+	margin-right: 5px;
+}
+
+ul.block-grid.two-up {
+	margin-bottom:0px;
+}
+
+button#buynow_button2 {
+	margin-bottom:10px
+}
+
+div.alert-box.error {
+	margin-top:5px;
+}
+
+@media screen and (max-width: 480px) {
+.container { text-align:left !important}
+#buynow_button1 { margin-top:0px;margin-right:0px;float:right; margin-bottom:30px; }
+#back-button { margin-bottom:30px; }
+#prodLabel { margin-top:0px; margin-bottom:10px;margin-right:10px;float:right; }
+div.panel h2 {font-size:12px !important; }
+div#screen1 ul.block-grid.two-up li {
+margin-bottom:-1% !important;
+}
+}
+
+@media screen and (min-width: 480px) {
+	#desktopPageContainer {
+		width:480px;
+		margin:auto;
+		border-left:1px dashed #CCC;
+		border-right:1px dashed #CCC;
+		border-bottom:1px dashed #CCC;
+		padding-bottom:20px;
+	}
+	body {
+		background-image:url(../images/paper.jpg);
+		
+	}
