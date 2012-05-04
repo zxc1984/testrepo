@@ -16,7 +16,7 @@
     function hash_call($methodName,$nvpStr){
 
     ini_set('max_execution_time', 300);
-            //declaring of global variables
+            //declaring of global variabl
             
     global $API_Endpoint,$version,$API_UserName,$API_Password,$API_Signature,$nvp_Header;
     
