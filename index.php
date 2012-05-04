@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Set the viewport width to device width for mobile -->
 
-<title>Starbucks Singapore Online Purchase</title>
+<title>Starbucks Singapore Online Purch</title>
 
 <!-- Included CSS Files -->
 <link rel="stylesheet" href="stylesheets/foundation_fluid.css">
